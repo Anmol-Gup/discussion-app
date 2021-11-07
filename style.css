@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  color: white;
+  padding: 0.7rem;
+  background-color: rgb(8, 163, 143);
+}
+.search{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+.xyz{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  padding: 0.5rem;
+}
+.questions-list{
+  background-color: rgb(233, 230, 230);
+  width: 100%;
+}
+.responses-list{
+  background-color: rgb(233, 230, 230);
+  width: 100%;
+  min-height: max-content;
+  padding: 0rem 0.5rem;
+}
+.showquestions{
+  background-color: rgb(233, 230, 230);
+  padding:0.5rem 0.5rem;
+}
+.questions-list,.formarea{
+  flex: 50%;
+  margin: 10px;
+}
+.formarea button{
+  float: right;
+}
